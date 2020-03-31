@@ -3,6 +3,10 @@ body {
     background-color: aliceblue;
   }
 
+h1 {
+    color: teal;
+}
+
 .container {
     background-color: white;
     width: 700px;
@@ -17,8 +21,8 @@ body {
 }
 
 footer {
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    margin: 0px;
     background-color: #f8f9fa;
     height: 50px;
     width: 100%;
