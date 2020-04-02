@@ -1,14 +1,35 @@
+
+body {
+    background-color: aliceblue;
+  }
+
 nav {
     border-bottom-style: double;
     border-color: teal;
 }
 
+.flex-container {
+    width: 252px;
+    margin-right: 0;
+    height: 36px;
+   }
+
+
+
 .highlight {
     background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), teal 80%, rgba(255, 255, 255, 0));
 }
 
-body {
-    background-color: aliceblue;
+@media only screen and (max-width: 576px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+    }
+    p {
+        padding: 0;
+        margin: 10px;
+    }
   }
 
 h1 {
@@ -42,3 +63,4 @@ footer {
     border-color: teal;
    }
 
+  
