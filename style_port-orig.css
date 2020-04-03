@@ -15,27 +15,47 @@ h1 {
     color: teal;
 }
 
-.container-fluid {
+.container {
+    background-color: white;
+    width: 50%;
+    padding: 30px;
     margin: 20px;
-    background-color:#f8f9fa;
+   }
+
+.right {
+    position: absolute;
+    float: right;
 }
 
-.card {
-    margin: 10px;
-}
+img {
+    margin: 20px;
+   }
 
+.parent {
+    position: relative;
+}
 
 .text-block {
     background-color: teal;
     color: white;
     text-align: center;
     padding: 5px;
-    width: 100%;
+    width: 250px;
     height: 40px;
     position: absolute;
     bottom: 35px;
-    left: 0px;
+    left: 35px;
     }
+
+
+    @media only screen and (max-width: 768px) {
+        .container {
+            width: 250%;
+            padding: 20px;
+            margin: 10px;
+   }
+        }
+      }
 
 
 footer {

@@ -8,32 +8,29 @@ nav {
     border-color: teal;
 }
 
-.flex-container {
-    width: 252px;
-    margin-right: 0;
-    height: 36px;
-   }
-
-
 
 .highlight {
     background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), teal 80%, rgba(255, 255, 255, 0));
 }
 
-@media only screen and (max-width: 576px) {
-    .navbar-nav {
-        display: flex;
-        flex-direction: row;
-        height: 50px;
-    }
-    p {
-        padding: 0;
-        margin: 10px;
-    }
-  }
+
+/*.flex-container
+#navbarNavAltMarkup {
+    width: 252px;
+    padding: 0;
+    height: 40px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+}
+*/
 
 h1 {
     color: teal;
+}
+
+.img-responsive {
+    width: 300px;
 }
 
 .container {
@@ -63,4 +60,17 @@ footer {
     border-color: teal;
    }
 
-  
+  /* @media screen and (max-width: 640px) {
+     .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+    }
+    p {
+        padding: 0;
+        margin: 10px;
+    }
+    nav {
+        text-align: center;
+    }
+  }
