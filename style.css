@@ -20,10 +20,22 @@ h1 {
     background-color:#f8f9fa;
     }
 
+/*About Me*/
 .img-responsive {
     width: 300px;
+   padding-right: 20px;
+    float: left;
 }
 
+.media-body {
+    padding: 20px;
+    float: left;
+}
+
+.about {
+    float: left;
+}
+/*About Me End*/
 
 /*Portfolio*/
 .text-block {
