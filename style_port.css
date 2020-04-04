@@ -15,15 +15,14 @@ h1 {
     color: teal;
 }
 
-.container-fluid {
+.container {
     margin: 20px;
     background-color:#f8f9fa;
-}
+    }
 
 .card {
     margin: 10px;
 }
-
 
 .text-block {
     background-color: teal;
@@ -37,11 +36,10 @@ h1 {
     left: 0px;
     }
 
-
-footer {
+.footer {
     position: fixed;
     bottom: 0px;
-    margin: 0px;
+    margin: 20px 0 0 0;
     background-color: #f8f9fa;
     height: 50px;
     width: 100%;
