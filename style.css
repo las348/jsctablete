@@ -18,7 +18,7 @@ nav {
 
 nav a {
     display: inline-block;
-    padding-left: 15px;
+    
     margin-left: 15px;
     line-height: 18px;
 }
@@ -94,12 +94,12 @@ h1 {
 }
 
 .aboutcontainer {
-    width: 200px;
+    width: 450px;
 }
 
 /*About Me*/
 .img-responsive {
-    width: 450px;
+    width: 350px;
     padding-right: 20px;
     float: left;
 }
@@ -154,5 +154,8 @@ h1 {
 }
 nav {
     float: left;
+}
+.img-responsive {
+    width: 450px;
 }
 }
