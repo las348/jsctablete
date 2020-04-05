@@ -28,16 +28,59 @@ nav a {
     width: 450px;
     height: 50px;
     text-align: center;
+    background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), rgb(115, 192, 192) 85%, rgba(255, 255, 255, 0));
 }
 
 a {
     color: rgb(99, 98, 98);
 }
-/*Header end*/
+
+/*Header End*/
+
+/* Back Pulse */
+@-webkit-keyframes hvr-back-pulse {
+    50% {
+      background-color: rgb(115, 192, 192);
+    }
+  }
+  @keyframes hvr-back-pulse {
+    50% {
+      background-color: rgb(115, 192, 192);
+    }
+  }
+  .hvr-back-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+    -webkit-animation-name: hvr-back-pulse;
+    animation-name: hvr-back-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: rgb(115, 192, 192);
+    background-color: rgb(115, 192, 192);
+    color: white;
+  }
+/* Back Pulse End*/
+
 
 body {
     background-color: aliceblue;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Zilla Slab', serif;
   }
 
 h1 {
