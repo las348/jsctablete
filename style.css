@@ -103,6 +103,13 @@ h1 {
     float: left;
 }
 
+#Rutgers {
+    width: 10%;
+}
+#NYU {
+    width: 15%;
+}
+
 .media-body {
     padding: 20px;
     float: left;
