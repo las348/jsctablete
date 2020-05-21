@@ -127,7 +127,7 @@ p {
 
 /*Portfolio*/
 .text-block {
-    background-color: teal;
+    background-color: rgba(0, 128, 128, 0.8);
     color: white;
     text-align: center;
     padding: 5px;
@@ -140,6 +140,9 @@ p {
 
     .card {
         margin: 10px;
+    }
+    .card-img-top {
+    background-color: rgba(250, 252, 250, 0.9);
     }
 /*Portfolio End*/
 
